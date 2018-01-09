@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Ninja Shirt", 
+        "item": "Bodywear",
+        "code": "assets/ninja-shirt.jpg"
+    },
+    {
+        "name": "Ninja Hat", 
+        "item": "Hat",
+        "code": "assets/ninja-hat.jpg"
+    },    
+    {
+        "name": "Bandana", 
+        "item": "Hat",
+        "code": "assets/bandana.jpg"
+    },    
+    {
+        "name": "Ninja Mask", 
+        "item": "Facial",
+        "code": "assets/ninja-mask.jpg"
+    },    
+    {
+        "name": "Bamboo Stick", 
+        "item": "Weapon",
+        "code": "assets/bamboo-stick.jpg"
+    },    
+    {
+        "name": "Katana Sword", 
+        "item": "Weapon",
+        "code": "assets/katana-sword.jpg"
+    },    
+    {
+        "name": "Sandals", 
+        "item": "Footwear",
+        "code": "assets/sandals.jpg"
+    },    
+    {
+        "name": "Ninja Belt", 
+        "item": "Bodywear",
+        "code": "assets/ninja-belt.jpg"
+    },
+    {
+        "name": "Golden Sword", 
+        "item": "Weapon",
+        "code": "assets/golden-sword.jpg"
+    }, 
+    {
+        "name": "Ninja Suit", 
+        "item": "Bodywear",
+        "code": "assets/ninja-suit.jpg"
+    },    
+    {
+        "name": "Cherry Blossum Fan", 
+        "item": "Weapon",
+        "code": "assets/cherry-fan.jpg"
+    }
+
+  ]

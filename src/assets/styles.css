@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: verdana;
+  color: black;
+  background: rgb(199, 199, 199);
+}
+h1,h2{
+  font-weight: normal;
+  margin-top: 0;
+  padding:20px;
+  text-align: center;
+  background: #673AB7;
+  color: white;
+}
+
+h3{
+  font-weight: normal;
+  margin-top: 0;
+  padding:20px;
+  text-align: center;
+  color: black;
+}
+
+h1{
+  text-indent: -10000px;
+  background: url(ninja-store.png) center ;
+  background-size: 100%;
+  width: 250px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+/*TITLE */
+#title{
+  background: white;
+  height: auto;
+  width: 100%;
+}
+
+#logo{
+  height: 45px;
+  margin-top:5px;
+  margin-left: 15px;
+ }
+
+/* NAVBAR */
+
+nav{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 0 10 10 auto;
+  float: right;
+}
+
+nav ul{
+  padding: 0;
+  height: 50px;
+
+  background: white;
+  display: flex;
+}
+
+nav li{
+  flex-basis: 0;
+  flex-grow: 1;
+  list-style-type: none;
+}
+
+nav a{
+  text-align: center;
+  padding: 16px 0;
+  color: black;
+  display: block;
+  text-decoration: none;
+}
+
+nav a:hover{
+  color: #673AB7;
+  background: #EDE7F6;
+  transition:all 0.3s ease;
+
+
+}
+
+
+
+/* MAIN */
+
+#main{
+  background: #fdfdfd;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.2),0 1px 1px 0 rgba(0,0,0,0.14),0 2px 1px -1px rgba(0,0,0,0.12);
+  border-radius: 2px;
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto
+}
+
+#filter{
+  padding: 12px;
+  background: #e7e7e7;
+  border-radius: 2px;
+  line-height: 30px
+}
+
+#filter input{
+  padding: 8px;
+  width: 500px;
+  border: 1px solid #d4d4d4;
+  border-radius: 2px;
+}
+
+#filter:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#ninja-listing li{
+  padding: 16px 0;
+  border-bottom: 1px solid #e4e4e4;
+  margin-left: 50px;
+  margin-right: 10px;
+  color: gray; 
+  list-style: none;
+}
+
+.single-ninja span{
+  display: inline-block;
+  border-radius: 2px;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 8px !important;
+}
+
+.single-ninja h3{
+  padding: 4px;
+  font-size: 20px;
+  margin-left: 20px;
+  display: inline-block;
+}
+
+.single-ninja div{
+  float: right;
+  margin-right: 10px;
+  line-height: 20px;
+  cursor: pointer;
+}
+
+#add-ninja{
+  margin-top: 30px;
+  background: #e7e7e7;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+#add-ninja input{
+  display: inline-block;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  width: 240px;
+}
+
+#add-ninja button{
+  background: #0288d1;
+  color: #eee;
+  padding: 8px 10px;
+  border: 0;
+  border-radius: 2px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  float: right;
+}
+
+#ninjaPic{
+  background: url(ninja.jpeg) no-repeat center ;
+  width: 100%;
+  height: 400px;
+}
+
+
+#item-listing{
+  width: 200px;
+}
+
+#buy{
+  float:right;
+  padding: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+}

@@ -1,0 +1,27 @@
+
+
+<style>
+    .blue{color: blue;}
+    .red{color: red;}
+    .underlined{text-decoration: underline;}
+</style>
+
+<h2>Ninja Listing</h2>
+
+<form id="filter"><label>Search items:</label>
+        <input type="text"  name="searchTerm" [(ngModel)]="term"/>
+</form>
+
+<ul id="ninja-listing">
+
+    <li *ngFor="let ninja of ninjas | filter:term">
+            <div class="single-ninja">
+                    <img id="item-listing" src="{{ninja.code}}">
+                    <h3>{{ninja.name }}</h3>
+                    <!--<div (click)="remove($event)" [attr.data-name]="ninja.name">Delete</div>--> 
+                </div>
+    </li>
+
+</ul>
+
+<!--<button (click)="logIt()">Log</button>-->
