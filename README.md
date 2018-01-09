@@ -1,4 +1,4 @@
-Created my Thomas Mar
+Created by Thomas Mar
 
 # NewProject
 
