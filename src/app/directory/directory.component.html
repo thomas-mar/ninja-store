@@ -16,12 +16,13 @@
 
     <li *ngFor="let ninja of ninjas | filter:term">
             <div class="single-ninja">
-                    <img id="item-listing" src="{{ninja.code}}">
-                    <h3>{{ninja.name }}</h3>
-                    <!--<div (click)="remove($event)" [attr.data-name]="ninja.name">Delete</div>--> 
-                </div>
+                    <span><img id="item-listing" src="{{ninja.code}}"></span>
+                    <span><h3>{{ninja.name }}</h3></span>
+                    <br>
+                    <button>Buy Now</button>
+            </div>
     </li>
 
 </ul>
-
+<br>
 <!--<button (click)="logIt()">Log</button>-->

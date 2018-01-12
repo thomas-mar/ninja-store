@@ -121,11 +121,12 @@ nav a:hover{
 }
 
 #ninja-listing li{
-  padding: 16px 0;
+  padding: 16px;
   border-bottom: 1px solid #e4e4e4;
-  margin-left: 50px;
-  margin-right: 10px;
-  color: gray; 
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  background: rgb(211, 211, 211); 
   list-style: none;
 }
 
@@ -135,6 +136,14 @@ nav a:hover{
   font-size: 14px;
   text-transform: uppercase;
   padding: 8px !important;
+
+}
+
+#you{
+  text-align:right;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%); 
 }
 
 .single-ninja h3{
@@ -148,6 +157,7 @@ nav a:hover{
   float: right;
   margin-right: 10px;
   line-height: 20px;
+  background: blue;
   cursor: pointer;
 }
 
