@@ -2,57 +2,80 @@
     {
         "name": "Ninja Shirt", 
         "item": "Bodywear",
-        "code": "assets/ninja-shirt.jpg"
+        "code": "assets/ninja-shirt.jpg",
+        "cost": "$29.99",
+        "description": "Trust me I'm a Ninja"
     },
     {
         "name": "Ninja Hat", 
         "item": "Hat",
-        "code": "assets/ninja-hat.jpg"
+        "code": "assets/ninja-hat.jpg",
+        "cost": "$29.99",
+        "description": "Ninja"
+
     },    
     {
         "name": "Bandana", 
         "item": "Hat",
-        "code": "assets/bandana.jpg"
+        "code": "assets/bandana.jpg",
+        "cost": "$29.99",
+        "description": "Wear the ninja"
     },    
     {
         "name": "Ninja Mask", 
         "item": "Facial",
-        "code": "assets/ninja-mask.jpg"
+        "code": "assets/ninja-mask.jpg",
+        "cost": "$29.99",
+        "description": "You can't see me"
     },    
     {
         "name": "Bamboo Stick", 
         "item": "Weapon",
-        "code": "assets/bamboo-stick.jpg"
+        "code": "assets/bamboo-stick.jpg",
+        "cost": "$29.99",
+        "description": "Training stick"
     },    
     {
         "name": "Katana Sword", 
         "item": "Weapon",
-        "code": "assets/katana-sword.jpg"
+        "code": "assets/katana-sword.jpg",
+        "cost": "$29.99",
+        "description": "Basic sword used by ninjas and samurais"
     },    
     {
         "name": "Sandals", 
         "item": "Footwear",
-        "code": "assets/sandals.jpg"
+        "code": "assets/sandals.jpg",
+        "cost": "$29.99",
+        "description": "Be a real ninja with these sandals"
     },    
     {
         "name": "Ninja Belt", 
         "item": "Bodywear",
-        "code": "assets/ninja-belt.jpg"
+        "code": "assets/ninja-belt.jpg",
+        "cost": "$29.99",
+        "description": "Colour customed to your belt level"
     },
     {
         "name": "Golden Sword", 
         "item": "Weapon",
-        "code": "assets/golden-sword.jpg"
+        "code": "assets/golden-sword.jpg",
+        "cost": "$29.99",
+        "description": "Only used by the most elite of Samurais"
     }, 
     {
         "name": "Ninja Suit", 
         "item": "Bodywear",
-        "code": "assets/ninja-suit.jpg"
+        "code": "assets/ninja-suit.jpg",
+        "cost": "$29.99",
+        "description": "Be the ninja"
     },    
     {
         "name": "Cherry Blossum Fan", 
         "item": "Weapon",
-        "code": "assets/cherry-fan.jpg"
+        "code": "assets/cherry-fan.jpg",
+        "cost": "$29.99",
+        "description": "Only the cherriest of fans"
     }
 
   ]

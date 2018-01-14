@@ -16,13 +16,25 @@
 
     <li *ngFor="let ninja of ninjas | filter:term">
             <div class="single-ninja">
-                    <span><img id="item-listing" src="{{ninja.code}}"></span>
-                    <span><h3>{{ninja.name }}</h3></span>
-                    <br>
-                    <button>Buy Now</button>
+                <div>
+                        <img src="{{ninja.code}}" align="left">
+                </div>
+                
+                <div>   
+                        <br>
+                        <h3>{{ ninja.name }}</h3>
+                        <p>{{ ninja.description }}</p>
+                        <br>
+                        <h3>{{ ninja.cost }}</h3>
+                        <br>
+                        <button>Buy Now</button>
+                    </div>
+
             </div>
     </li>
 
 </ul>
 <br>
+
+<div class="inventory-app"></div>
 <!--<button (click)="logIt()">Log</button>-->

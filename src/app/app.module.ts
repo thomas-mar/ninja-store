@@ -13,6 +13,7 @@ import { FilterPipe } from './filter.pipe';
 import { LoggingService } from './logging.service';
 import { DataService } from './data.service';
 import { ContactsComponent } from './contacts/contacts.component';
+import { InventoryComponent } from './inventory/inventory.component';
 
 
 
@@ -22,7 +23,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     HomeComponent,
     DirectoryComponent,
     FilterPipe,
-    ContactsComponent
+    ContactsComponent,
+    InventoryComponent
   ],
   imports: [
     BrowserModule,
@@ -31,7 +33,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     RouterModule.forRoot([
       { path: 'directory', component: DirectoryComponent },
       { path: '', component: HomeComponent },
-      { path: 'contacts', component: ContactsComponent}  
+      { path: 'contacts', component: ContactsComponent},  
+      { path: 'inventory', component: InventoryComponent}  
     ])
   ],
   
