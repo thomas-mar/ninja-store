@@ -3,6 +3,8 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HttpModule } from '@angular/http';
+import { NgIf } from '@angular/common';
+
 
 
 import { AppComponent } from './app.component';
@@ -13,7 +15,7 @@ import { FilterPipe } from './filter.pipe';
 import { LoggingService } from './logging.service';
 import { DataService } from './data.service';
 import { ContactsComponent } from './contacts/contacts.component';
-import { InventoryComponent } from './inventory/inventory.component';
+import { RegisterComponent } from './register/register.component';
 
 
 
@@ -24,7 +26,7 @@ import { InventoryComponent } from './inventory/inventory.component';
     DirectoryComponent,
     FilterPipe,
     ContactsComponent,
-    InventoryComponent
+    RegisterComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,8 +35,9 @@ import { InventoryComponent } from './inventory/inventory.component';
     RouterModule.forRoot([
       { path: 'directory', component: DirectoryComponent },
       { path: '', component: HomeComponent },
-      { path: 'contacts', component: ContactsComponent},  
-      { path: 'inventory', component: InventoryComponent}  
+      { path: 'contacts', component: ContactsComponent}, 
+      { path: 'register', component: RegisterComponent},
+
     ])
   ],
   

@@ -6,7 +6,7 @@
     .underlined{text-decoration: underline;}
 </style>
 
-<h2>Ninja Listing</h2>
+<h2>Ninja Items</h2>
 
 <form id="filter"><label>Search items:</label>
         <input type="text"  name="searchTerm" [(ngModel)]="term"/>
@@ -17,18 +17,21 @@
     <li *ngFor="let ninja of ninjas | filter:term">
             <div class="single-ninja">
                 <div>
-                        <img src="{{ninja.code}}" align="left">
+                        <img src="{{ninja.itemUrl}}" align="left">
                 </div>
                 
                 <div>   
-                        <br>
                         <h3>{{ ninja.name }}</h3>
                         <p>{{ ninja.description }}</p>
                         <br>
-                        <h3>{{ ninja.cost }}</h3>
+
+                        <h3 *ngIf="ninja.discount == 'true'"><span style="color:red;">{{ ninja.discountCost }}</span> <span style="text-decoration: line-through;">{{ ninja.cost }}</span></h3>
+                        <h3 *ngIf="ninja.discount == 'false'">{{ ninja.cost }}</h3>
+
+
                         <br>
                         <button>Buy Now</button>
-                    </div>
+                </div>
 
             </div>
     </li>

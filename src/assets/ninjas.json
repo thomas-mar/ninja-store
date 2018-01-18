@@ -2,80 +2,133 @@
     {
         "name": "Ninja Shirt", 
         "item": "Bodywear",
-        "code": "assets/ninja-shirt.jpg",
+        "itemUrl": "assets/ninja-shirt.jpg",
         "cost": "$29.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "Trust me I'm a Ninja"
+
     },
     {
         "name": "Ninja Hat", 
         "item": "Hat",
-        "code": "assets/ninja-hat.jpg",
+        "itemUrl": "assets/ninja-hat.jpg",
         "cost": "$29.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "Ninja"
 
     },    
     {
+        "name": "Kimono Dress - Blue", 
+        "item": "Bodywear",
+        "itemUrl": "assets/kimono-blue.jpg",
+        "cost": "$49.99",
+        "discount": "false",
+        "discountCost": "NULL",
+        "description": "The traidtional Japanese attire"
+
+    },  
+    {
+        "name": "Kimono Dress - Pink", 
+        "item": "Bodywear",
+        "itemUrl": "assets/kimono-pink.jpg",
+        "cost": "$49.99",
+        "discount": "false",
+        "discountCost": "NULL",
+        "description": "The traidtional Japanese attire"
+
+    },  
+    {
         "name": "Bandana", 
         "item": "Hat",
-        "code": "assets/bandana.jpg",
-        "cost": "$29.99",
+        "itemUrl": "assets/bandana.jpg",
+        "cost": "$24.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "Wear the ninja"
     },    
     {
         "name": "Ninja Mask", 
         "item": "Facial",
-        "code": "assets/ninja-mask.jpg",
-        "cost": "$29.99",
+        "itemUrl": "assets/ninja-mask.jpg",
+        "cost": "$19.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "You can't see me"
     },    
     {
         "name": "Bamboo Stick", 
         "item": "Weapon",
-        "code": "assets/bamboo-stick.jpg",
-        "cost": "$29.99",
+        "itemUrl": "assets/bamboo-stick.jpg",
+        "cost": "$9.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "Training stick"
+    },    
+    {
+        "name": "Wagasa (Japanese Umbrella)", 
+        "item": "Weapon",
+        "itemUrl": "assets/paper-umbrella.jpg",
+        "cost": "$14.99",
+        "discount": "false",
+        "discountCost": "NULL",
+        "description": "Beautiful and elegant design"
     },    
     {
         "name": "Katana Sword", 
         "item": "Weapon",
-        "code": "assets/katana-sword.jpg",
-        "cost": "$29.99",
+        "itemUrl": "assets/katana-sword.jpg",
+        "cost": "$89.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "Basic sword used by ninjas and samurais"
     },    
     {
         "name": "Sandals", 
         "item": "Footwear",
-        "code": "assets/sandals.jpg",
-        "cost": "$29.99",
+        "itemUrl": "assets/sandals.jpg",
+        "cost": "$69.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "Be a real ninja with these sandals"
-    },    
+    }, 
+    {
+        "name": "Cherry Blossum Fan", 
+        "item": "Weapon",
+        "itemUrl": "assets/cherry-fan.jpg",
+        "cost": "$49.99",
+        "discount": "true",
+        "discountCost": "$29.99",
+        "description": "Only the cherriest of fans"
+    },   
     {
         "name": "Ninja Belt", 
         "item": "Bodywear",
-        "code": "assets/ninja-belt.jpg",
-        "cost": "$29.99",
+        "itemUrl": "assets/ninja-belt.jpg",
+        "cost": "$19.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "Colour customed to your belt level"
     },
     {
         "name": "Golden Sword", 
         "item": "Weapon",
-        "code": "assets/golden-sword.jpg",
-        "cost": "$29.99",
+        "itemUrl": "assets/golden-sword.jpg",
+        "cost": "$129.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "Only used by the most elite of Samurais"
     }, 
     {
         "name": "Ninja Suit", 
         "item": "Bodywear",
-        "code": "assets/ninja-suit.jpg",
-        "cost": "$29.99",
+        "itemUrl": "assets/ninja-suit.jpg",
+        "cost": "$89.99",
+        "discount": "false",
+        "discountCost": "NULL",
         "description": "Be the ninja"
-    },    
-    {
-        "name": "Cherry Blossum Fan", 
-        "item": "Weapon",
-        "code": "assets/cherry-fan.jpg",
-        "cost": "$29.99",
-        "description": "Only the cherriest of fans"
-    }
+    }    
+
 
   ]
