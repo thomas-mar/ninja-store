@@ -1,5 +1,7 @@
 import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
 import { LoggingService } from '../logging.service';
+import { DataService } from '../data.service'; 
+
 
 
 
@@ -12,13 +14,17 @@ export class HomeComponent implements OnInit {
   
   homeTitle = "Welcome to the Ninja Store";
 
+  ninjas = [];
 
-  constructor(private logger: LoggingService) { }
+  constructor(private logger: LoggingService, private dataService: DataService) { }
 
   logIt(){
     this.logger.log();
   } 
   ngOnInit() {
+    this.dataService.fetchData().subscribe(
+      (data) => this.ninjas = data
+    );
   }
 
 }

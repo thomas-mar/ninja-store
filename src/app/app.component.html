@@ -9,6 +9,7 @@
             <li><a [routerLink]="['directory']">Ninja Items</a></li>
             <li><a [routerLink]="['contacts']">Contacts</a></li>
             <li><a [routerLink]="['register']">Register</a></li>
+            <li><a [routerLink]="['/']">Sign In</a></li>
         </ul>
         </nav>
     </div>
@@ -20,6 +21,17 @@
 
 <router-outlet></router-outlet>    <!--Load in a view-->
 </section>
+
+<footer>
+    <div class="footer-style">
+
+            <span><a [routerLink]="['/']">Home</a></span>
+            <span><a [routerLink]="['directory']">Ninja Items</a></span>
+            <span><a [routerLink]="['contacts']">Contacts</a></span>
+            <span><a [routerLink]="['register']">Register</a></span>
+    <p class="copyright">&copy; Thomas Mar 2018</p>
+    </div>
+</footer>
 
 
 

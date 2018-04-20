@@ -1,43 +1,56 @@
-
-
 <style>
-    .blue{color: blue;}
-    .red{color: red;}
-    .underlined{text-decoration: underline;}
+
+        .blue {
+                color: blue;
+        }
+
+        .red {
+                color: red;
+        }
+
+        .underlined {
+                text-decoration: underline;
+        }
 </style>
+<div class="section">
+        <form id="filter">
+                <label>Search items:</label>
+                <input type="text" name="searchTerm" [(ngModel)]="term" />
+        </form>
 
-<h2>Ninja Items</h2>
+        <ul id="ninja-listing">
 
-<form id="filter"><label>Search items:</label>
-        <input type="text"  name="searchTerm" [(ngModel)]="term"/>
-</form>
+                <li *ngFor="let ninja of ninjas | filter:term">
+                        <div class="single-ninja">
+                                <div>
+                                        <img src="{{ninja.itemUrl}}" align="left">
+                                </div>
 
-<ul id="ninja-listing">
+                                <div>
+                                        <h3>{{ ninja.name }}</h3>
+                                        <p>{{ ninja.description }}</p>
+                                        <br>
 
-    <li *ngFor="let ninja of ninjas | filter:term">
-            <div class="single-ninja">
-                <div>
-                        <img src="{{ninja.itemUrl}}" align="left">
-                </div>
-                
-                <div>   
-                        <h3>{{ ninja.name }}</h3>
-                        <p>{{ ninja.description }}</p>
-                        <br>
-
-                        <h3 *ngIf="ninja.discount == 'true'"><span style="color:red;">{{ ninja.discountCost }}</span> <span style="text-decoration: line-through;">{{ ninja.cost }}</span></h3>
-                        <h3 *ngIf="ninja.discount == 'false'">{{ ninja.cost }}</h3>
+                                        <h3 *ngIf="ninja.discount == 'true'">
+                                                <span style="color:red;">{{ ninja.discountCost }}</span>
+                                                <span style="text-decoration: line-through;">{{ ninja.cost }}</span>
+                                        </h3>
+                                        <h3 *ngIf="ninja.discount == 'false'">{{ ninja.cost }}</h3>
 
 
-                        <br>
-                        <button>Buy Now</button>
-                </div>
+                                        <br>
+                                        <button>Buy Now</button>
+                                </div>
 
-            </div>
-    </li>
+                        </div>
+                </li>
 
-</ul>
-<br>
+        </ul>
+        <br>
 
-<div class="inventory-app"></div>
+        <div class="inventory-app"></div>
+</div>
+
+
+
 <!--<button (click)="logIt()">Log</button>-->

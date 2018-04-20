@@ -8,7 +8,8 @@ export class FilterPipe implements PipeTransform {
   transform(ninjas: any, term: any): any {
     if (term===undefined) return ninjas;
     return ninjas.filter(function(ninja){
-      return ninja.name.toLowerCase().includes(term.toLowerCase())
+      
+      return ninja.name.includes(term.toLowerCase())
     })
   }
 
